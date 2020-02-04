@@ -49,7 +49,7 @@ public class Robot extends TimedRobot {
     /*
      * In order to set the double solenoid, if just one button
      * is pressed, set the solenoid to correspond to that button.
-     * If both are pressed, set the solenoid will be set to Forwards.
+     * If both are pressed, set the solenoid will be set to Forwards. test
      */
     if (m_stick.getRawButton(kDoubleSolenoidForward)) {
       m_doubleSolenoid.set(DoubleSolenoid.Value.kForward);
